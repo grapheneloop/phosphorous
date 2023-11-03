@@ -1,2 +1,2 @@
 # phosphorous
-Data structure in Python
+What better way to learn Python than DSA.

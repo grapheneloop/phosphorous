@@ -7,3 +7,4 @@ if __name__ == "__main__":
     assert fact(1) == 1
     assert fact(0) == 1
     assert fact(6) == 720
+

@@ -24,5 +24,22 @@ def compare_arrays(left, right):
         return [a == b for a, b in zip(left, right)]
 
 
+def swap_characters_at_index_safely(value, i, j):
+    copy = list(value)
+    temp = copy[i]
+    copy[i] = copy[j]
+    copy[j] = temp
+    value = ''.join(copy)
+    return value
+
+
 def is_empty_or_null(arr):
     return arr is None or len(arr) == 0
+
+
+if __name__ == "__main__":
+    print(swap_characters_at_index_safely("abc", 0, 2))
+    print(swap_characters_at_index_safely("a", 0, 0))
+    print(swap_characters_at_index_safely("ab", 0, 1))
+    print(swap_characters_at_index_safely("abcd", 0, 1))
+    print(swap_characters_at_index_safely("abcd", 0, 3))
