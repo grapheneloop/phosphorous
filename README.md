@@ -2,6 +2,8 @@
 What better way to learn Python than on DSA.
 ## Time complexity chart
 ![](./images/time_complexity_sort_algo.png)
+## Power of 2s
+![power_of_2s.png](images%2Fpower_of_2s.png)
 ## Code
 * [all_unique.py](src/all_unique.py)
 * [array_reversal_in_place.py](src/array_reversal_in_place.py)
