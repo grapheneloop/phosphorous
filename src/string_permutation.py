@@ -3,7 +3,7 @@ from n_factorial_the_bad_way import fact
 
 
 def permutation(value, index=0):
-    output = set([])
+    output = set([])  # TODO note how a set is. it has a method update.
     if index == len(value):
         return {value}
     else:
